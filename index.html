@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intern Donation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Intern Dashboard Donation Form</h1>
+  <form id="internForm">
+    <input type="text" id="name" placeholder="Full Name" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="text" id="referral" placeholder="Referral Code" required><br>
+    <input type="number" id="amount" placeholder="Donation Amount (₹)" required><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
